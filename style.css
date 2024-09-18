@@ -112,3 +112,100 @@ body{
 .subtittle-box-left::after {
     right: -90px; /* Ajuste para posicionar a linha depois do título */
 }
+
+.cardapio-fritas{
+    margin: -7mm 0 0 10mm;
+}
+
+.cardapio-fritas > .porcao-menor > .item-cardapio{
+    font-family: serif;
+    color: white;
+    font-size: 5mm;
+    letter-spacing: .5mm;
+    display: flex;
+}
+
+.cardapio-fritas > .porcao-menor > .item-cardapio > .preco{
+    margin: 5mm 10mm 0 auto;
+}
+
+.cardapio-fritas > .porcao-menor > .descricao{
+    font-family: serif;
+    color: white;
+    font-size: 4mm;
+    letter-spacing: .5mm;
+    margin-top: -4mm;
+    opacity: .6;
+}
+
+.cardapio-burguer{
+    margin: -7mm 0 0 10mm;
+}
+
+.cardapio-burguer > .porcao-menor > .item-cardapio{
+    font-family: serif;
+    color: white;
+    font-size: 5mm;
+    letter-spacing: .5mm;
+    display: flex;
+}
+
+.cardapio-burguer > .porcao-menor > .item-cardapio > .preco{
+    margin: 5mm 10mm 0 auto;
+}
+
+.cardapio-burguer > .porcao-menor > .descricao{
+    font-family: serif;
+    color: white;
+    font-size: 4mm;
+    letter-spacing: .5mm;
+    margin-top: -6mm;
+    opacity: .6;
+}
+
+.first-item{
+    display: flex;
+}
+
+.combo{
+    font-family: serif;
+    color: white;
+    font-size: 10mm;
+    letter-spacing: .5mm;
+    margin: 0 0 -7mm 12mm;
+}
+
+.subtittle-burguer{
+    margin-top: -15mm;
+    margin-left: 20mm;
+    display: inline-block;
+    position: relative;
+    font-size: 6mm;
+    font-family: "Dancing Script", system-ui;
+    font-optical-sizing: auto;
+    font-style: normal;
+    letter-spacing: 4px;
+    color: white;
+}
+
+.description-subtittle-burguer::after,
+.description-subtittle-burguer::before{
+    content: "";
+    position: absolute;
+    top: 35px;
+    width: 50px;
+    height: 2px;
+    background-color: rgba(255,255,255,0.8);
+}
+
+.description-subtittle-burguer::before {
+    left: -60px; /* Ajuste para posicionar a linha antes do título */
+}
+
+.description-subtittle-burguer::after {
+    right: -60px; /* Ajuste para posicionar a linha depois do título */
+}
+
+.second-item{
+    display: flex;
+}
