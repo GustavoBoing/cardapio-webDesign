@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
 body{
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
@@ -69,8 +72,42 @@ body{
 }
 
 .tittle-left-box{
-    font-size: 10mm;
+    font-size: 12mm;
     justify-content: center;
     text-align: center;
     color: white;
+}
+
+.subtittle-fries{
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.subtittle-box-left{
+    margin-top: -3mm;
+    display: inline-block;
+    position: relative;
+    font-size: 10mm;
+    font-family: "Dancing Script", system-ui;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.subtittle-box-left::after,
+.subtittle-box-left::before{
+    content: "";
+    position: absolute;
+    top: 22px;
+    width: 75px;
+    height: 2px;
+    background-color: rgba(255,255,255,0.8);
+}
+
+.subtittle-box-left::before {
+    left: -90px; /* Ajuste para posicionar a linha antes do título */
+}
+
+.subtittle-box-left::after {
+    right: -90px; /* Ajuste para posicionar a linha depois do título */
 }
