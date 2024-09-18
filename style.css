@@ -10,7 +10,67 @@ body{
 .a3{
     background-color: rgba(0, 0, 0, .7);
     width: 297mm;
-    height: 420mm;
-    padding: 10mm;
+    height: 400mm;
     box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.3);
+}
+
+.tittle{
+    background-color: aliceblue;
+    height: 80mm;
+}
+
+.first-row{
+    width: 297mm;
+    display: flex;
+    margin: 0mm 0mm 0mm 15mm;
+}
+
+.second-row{
+    width: 297mm;
+    display: flex;
+    margin: 20mm 0mm 0mm 15mm;
+}
+
+.left-box{
+    width: 105mm;
+    height: 140mm;
+    background-color: rgb(66,28,20,.8);
+    border-radius: 10mm;
+}
+
+.left-box-second{
+    width: 105mm;
+    height: 140mm;
+    background-color: rgb(66,28,20,.8);
+    border-radius: 10mm;
+}
+
+.align-rigth{
+    margin-left: 10mm;
+}
+
+.right-box{
+    align-items: right;
+}
+
+.first-item{
+    width: 167mm;
+    height: 65mm;
+    background-color: rgb(66,28,20,.8);
+    border-radius: 45mm 0 0 45mm;
+}
+
+.second-item{
+    width: 167mm;
+    height: 65mm;
+    background-color: rgb(66,28,20,.8);
+    border-radius: 45mm 0 0 45mm;
+    margin: 10mm 0 0 0;
+}
+
+.tittle-left-box{
+    font-size: 10mm;
+    justify-content: center;
+    text-align: center;
+    color: white;
 }
