@@ -31,7 +31,7 @@ body {
     width: 250px;
     height: 200px;
     color: aliceblue;
-    border-radius: 10px;
+    border-radius: 50%;
 }
 
 .first-row {

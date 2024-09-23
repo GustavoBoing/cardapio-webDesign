@@ -12,9 +12,10 @@
     <div class="a3">
         <section>
             <div class="tittle">
-                <img src="images/burger-vintage-logo_1366-217.avif">
+                <img src="images/logo.jpeg">
 
             </div>
+            <audio id="background-music" src="som.MP3.mp3" autoplay loop muted></audio>
         </section>
         <section>
             <div class=" first-row">
@@ -163,6 +164,13 @@
             </div>
         </section>
     </div>
+
+    <script>
+        window.addEventListener('load', function () {
+            var audio = document.getElementById('background-music');
+            audio.muted = false;
+        });
+    </script>
 </body>
 
 </html>
